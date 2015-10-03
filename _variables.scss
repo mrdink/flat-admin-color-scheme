@@ -1,0 +1,100 @@
+// assign default value to all undefined variables
+
+// core variables
+
+$text-color: #fff;
+$base-color: #2c3e50;
+$icon-color: #95a5a6;
+$highlight-color: #1abc9c;
+$notification-color: #e74c3c;
+$action-color: #1abc9c;
+
+// global
+
+$body-background: #fff;
+
+$link: #16a085;
+$link-focus: #1abc9c;
+
+$button-color: $action-color;
+$button-secondary-color: #bdc3c7;
+$form-checked: #d35400;
+
+// admin menu & admin-bar
+
+$menu-text: $text-color;
+$menu-icon: $icon-color;
+$menu-background: #34495e;
+
+$menu-highlight-text: $highlight-color;
+$menu-highlight-icon: $text-color;
+$menu-highlight-background: $base-color;
+
+$menu-current-text: $menu-highlight-text;
+$menu-current-icon: $menu-highlight-icon;
+$menu-current-background: $menu-highlight-background;
+
+$menu-submenu-text: mix($base-color, $text-color, 30%);
+$menu-submenu-background: lighten($base-color, 7%);
+$menu-submenu-background-alt: desaturate(lighten($menu-background, 7%), 7%);
+
+$menu-submenu-focus-text: #1abc9c;
+$menu-submenu-current-text: $text-color;
+
+$menu-bubble-text: $highlight-color;
+$menu-bubble-background: $notification-color;
+$menu-bubble-current-text: $highlight-color;
+$menu-bubble-current-background: $notification-color;
+
+$menu-collapse-text: $menu-icon;
+$menu-collapse-icon: $menu-icon;
+$menu-collapse-focus-text: $text-color;
+$menu-collapse-focus-icon: $menu-highlight-icon;
+
+$adminbar-avatar-frame: lighten($menu-background, 7%);
+$adminbar-input-background: lighten($menu-background, 7%);
+
+$menu-customizer-text: mix($base-color, $text-color, 40%);
+
+// core variables
+
+$adminbar-text-color: #fff;
+$adminbar-base-color: $menu-background;
+$adminbar-icon-color: $icon-color;
+$adminbar-highlight-color: #fff;
+$adminbar-notification-color: #e74c3c;
+$adminbar-action-color: $adminbar-highlight-color;
+
+// admin menu & admin-bar
+
+$adminbar-menu-text: $adminbar-text-color;
+$adminbar-menu-icon: $adminbar-icon-color;
+$adminbar-menu-background: $adminbar-base-color;
+
+$adminbar-menu-highlight-text: $adminbar-text-color;
+$adminbar-menu-highlight-icon: $adminbar-text-color;
+$adminbar-menu-highlight-background: $adminbar-highlight-color;
+
+$adminbar-menu-current-text: $adminbar-menu-highlight-text;
+$adminbar-menu-current-icon: $adminbar-menu-highlight-icon;
+$adminbar-menu-current-background: $adminbar-menu-highlight-background;
+
+$adminbar-menu-submenu-text: mix($adminbar-base-color, $adminbar-text-color, 10%);
+$adminbar-menu-submenu-background: lighten($adminbar-base-color, 7%);
+$adminbar-menu-submenu-background-alt: desaturate(lighten($adminbar-menu-background, 7%), 7%);
+
+$adminbar-menu-submenu-focus-text: $adminbar-highlight-color;
+$adminbar-menu-submenu-current-text: $adminbar-text-color;
+
+$adminbar-menu-bubble-text: $adminbar-text-color;
+$adminbar-menu-bubble-background: $adminbar-notification-color;
+$adminbar-menu-bubble-current-text: $adminbar-text-color;
+$adminbar-menu-bubble-current-background: $adminbar-menu-submenu-background;
+
+$adminbar-menu-collapse-text: $adminbar-menu-icon;
+$adminbar-menu-collapse-icon: $adminbar-menu-icon;
+$adminbar-menu-collapse-focus-text: $adminbar-text-color;
+$adminbar-menu-collapse-focus-icon: $adminbar-menu-highlight-icon;
+
+$adminbar-menu-customizer-text: mix($adminbar-base-color, $adminbar-text-color, 20%);
+
